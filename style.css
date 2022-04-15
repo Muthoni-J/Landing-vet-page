@@ -32,7 +32,9 @@ nav ul li a{
 .logo-two{
     text-align: left;
     padding-top: 10px;
+ 
 }
+
 h5{
     color: #FFAC2B;
     max-width: 200px;
@@ -82,6 +84,9 @@ span{
 }
 
 /* hsl(199, 26%, 78%); */
+.hours{
+    color: rgb(136, 136, 189);  
+}
 
 .page2{
     background-color: #e8f6fd;
@@ -89,6 +94,9 @@ span{
     margin-bottom: 40%;
     height: 28%;
   
+}
+.service{
+    color: rgb(136, 136, 189);   
 }
 
 .Services{
@@ -115,6 +123,24 @@ span{
     height: 30vh;
     margin-right: 20px;
     margin-left: 5.5%;
+}
+.ra{
+    color: rgb(136, 136, 189);  
+}
+.as{
+    color: rgb(136, 136, 189);  
+}
+.dcs{
+    color: rgb(136, 136, 189); 
+}
+.so{
+    color: rgb(136, 136, 189); 
+}
+.ps{
+    color: rgb(136, 136, 189); 
+}
+.phs{
+    color: rgb(136, 136, 189); 
 }
 .Ambulance{
     padding: 1%;
@@ -169,7 +195,8 @@ span{
 .Branches{
     display: flex;
     margin-left: 10%;
-    margin-bottom: 8%;
+  
+   
 }
 .Branches button{
     border-radius: 5px;
@@ -177,6 +204,9 @@ span{
     width: 100px;
     border: 2px;
     background-color: rgb(96, 181, 185);
+}
+.v1{
+    color: rgb(136, 136, 189);  
 }
 .sentes{
     display: flex; 
@@ -186,6 +216,9 @@ span{
     font-size: large;
     
 }
+.score{
+    color: rgb(136, 136, 189);
+}
 .sentes h1{
     /* background-color: #6399a3;  */
     font-size: 40px;
@@ -193,6 +226,7 @@ span{
     /* padding: 40px; */
 
 }
+
 .comments{
     display: flex; 
    
@@ -205,6 +239,12 @@ span{
     margin: 0 0 0 0%;
     
 }
+.client{
+    color: rgb(136, 136, 189); 
+}
+.client1{
+    color: rgb(136, 136, 189);
+}
 .Both{
     padding: 100px;
     background-color: white; 
@@ -212,8 +252,16 @@ span{
     margin: 0 0 0 1%
 }
 .venterians{
-   
-   
+    display: flex;
+}
+.venterians h1{
+  margin-left: 10%;  
+}
+.all{
+    display: flex;
+    color: rgb(63, 136, 136);
+    margin-left: 80%;
+
 }
 .pics{
     /* background-color: #1c51c4; */
@@ -222,15 +270,15 @@ span{
     margin-right: 20px;
     margin-left: 30px;
 }
-.box-img{
+.box-img {
     background-color: #c7d9e2;
     width: 30%;
     height: 300px;
 }
-.pic{
+/* .pic{
     display: flex; 
     padding: 20px;
-}
+} */
 .Subscribe{
     text-align: center;
     font-weight: bolder;
@@ -240,8 +288,9 @@ span{
     width: 60%;
     padding: 30px;
     border-radius: 10px;
+    border:none;
     font-size: larger;
-    
+  
 } 
 .Subscribe button {
     /* padding: 2%;
@@ -265,7 +314,7 @@ span{
 
 .f1{
     display: flex;
-    background-color: white; 
+    background-color: #e2f1ee ; 
     height: 40%;
   
 }
