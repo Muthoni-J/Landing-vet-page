@@ -1,0 +1,287 @@
+a{
+    font-weight: bolder;
+    text-align: right;
+    
+}
+.hero{
+    position: relative;
+    width:100%;
+    height: 250px;
+    height: 100%;
+}
+.p1{
+content: "";
+
+}
+body{
+    background:#e2f1ee 
+}
+nav{
+    text-align: right;
+}
+nav ul li{
+   display: inline;
+   padding: 10px; 
+   list-style: none;
+   font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo-two{
+    text-align: left;
+    padding-top: 10px;
+}
+h5{
+    color: #FFAC2B;
+    max-width: 200px;
+    text-align: end;
+    top: 0;
+    position: relative;
+    font-size: 20px;
+}
+h5::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #FFAC2B;
+    left: 0;
+    top: 55%;
+    position: absolute;
+}
+.Detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: black;
+}
+.Detail p{
+    color:#555;
+    line-height:22px
+}
+.Detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.prof img{
+    float: right;
+    margin-top: -31%;
+    margin-right: -15%;
+    width: 55%;
+}
+
+/* hsl(199, 26%, 78%); */
+
+.page2{
+    background-color: #e8f6fd;
+    padding: 15px;
+    margin-bottom: 40%;
+    height: 28%;
+  
+}
+
+.Services{
+    display: flex;
+}
+.heading{
+    display: flex; 
+    justify-content: space-around;
+    margin-right: 40px;
+    padding: 70px;
+    margin-top: 8% ;   
+}
+.heading h1{
+    /* background-color: #6399a3;  */
+    font-size: 40px;
+    margin-right: 30%;
+    /* padding: 40px; */
+
+}
+.Radiology{
+    padding: 1%;
+    background-color: #F9FEFF;
+    width: 21%;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 5.5%;
+}
+.Ambulance{
+    padding: 1%;
+    background-color: #F9FEFF;
+    width: 21%;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 4%;
+    
+}
+.Dental{
+    padding: 1%;
+    background-color: #F9FEFF;
+    width: 21%;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 6%;
+    
+}
+.Services1{
+    display: flex;
+    width: 90%;
+}
+.Surgical{
+    padding: 1%;
+    background-color: #F9FEFF;
+    width: 24%;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.Parturtion{
+    padding:1%;
+    background-color: #F9FEFF;
+    width: 24%;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.Pet{
+    padding: 1%;
+    background-color: #F9FEFF;
+    width: 24%;
+    height: 30vh;
+    margin-right: -20px;
+    margin-left: 6%;
+    margin-top: 5%;
+ 
+}
+.Branches{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+.Branches button{
+    border-radius: 5px;
+    padding: 3%;
+    width: 100px;
+    border: 2px;
+    background-color: rgb(96, 181, 185);
+}
+.sentes{
+    display: flex; 
+    justify-content: space-around;
+    margin-right: 40px;
+    padding: 70px;
+    font-size: large;
+    
+}
+.sentes h1{
+    /* background-color: #6399a3;  */
+    font-size: 40px;
+    margin-right: 30%;
+    /* padding: 40px; */
+
+}
+.comments{
+    display: flex; 
+   
+      
+}
+.Interest{ 
+    background-color: white; 
+    padding: 100px; 
+    width: 40%;
+    margin: 0 0 0 0%;
+    
+}
+.Both{
+    padding: 100px;
+    background-color: white; 
+    width: 32%;
+    margin: 0 0 0 1%
+}
+.venterians{
+   
+   
+}
+.pics{
+    /* background-color: #1c51c4; */
+    width: 100%;
+    height: 50vh;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.box-img{
+    background-color: #c7d9e2;
+    width: 30%;
+    height: 300px;
+}
+.pic{
+    display: flex; 
+    padding: 20px;
+}
+.Subscribe{
+    text-align: center;
+    font-weight: bolder;
+   
+}
+.Subscribe input{
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: larger;
+    
+} 
+.Subscribe button {
+    /* padding: 2%;
+    width: 18%;
+    border-radius: 20%; */
+    border-radius: 5px;
+    padding: 2%;
+    margin-left: -12%;
+    width: 100px;
+    border: 2px;
+    background-color: rgb(96, 181, 185);
+}
+
+
+.container{
+    background-color:#cfebfa;
+    width: 80%;
+    height: 60%;
+    padding: 10%;
+}
+
+.f1{
+    display: flex;
+    background-color: white; 
+    height: 40%;
+  
+}
+.Ypet{
+    margin-left: 5%;
+    line-height: 25px;   
+} 
+.f2{
+    margin-left: 15%;
+    line-height: 25px; 
+}
+.comm{
+    margin-left: 15%;
+    line-height: 25px; 
+}
+.Abt{
+    margin-left: 15%;
+    line-height: 25px; 
+}
