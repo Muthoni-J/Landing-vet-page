@@ -6,7 +6,7 @@ a{
 .hero{
     position: relative;
     width:100%;
-    height: 250px;
+    height: 250%;
     height: 100%;
 }
 .p1{
@@ -14,14 +14,15 @@ content: "";
 
 }
 body{
-    background:#e2f1ee 
+    background:#DFF2F2 
+    
 }
 nav{
     text-align: right;
 }
 nav ul li{
    display: inline;
-   padding: 10px; 
+   padding: 1%; 
    list-style: none;
    font-weight: bold;
 }
@@ -78,14 +79,23 @@ span{
 
 .prof img{
     float: right;
-    margin-top: -31%;
-    margin-right: -15%;
-    width: 55%;
+    margin-top: -26%;
+    /* width: 380px; */
+    border:50px solid  #CDE5E8;
+    border-radius: 70%;
+    margin-left: -5%;
+    margin-bottom: 20%
 }
-
-/* hsl(199, 26%, 78%); */
 .hours{
     color: rgb(136, 136, 189);  
+}
+.hours button{
+    border-radius: 5px;
+    padding: 1%;
+    width: 120px;
+    border: 2px;
+    background-color: rgb(96, 181, 185);
+   
 }
 
 .page2{
@@ -105,7 +115,7 @@ span{
 .heading{
     display: flex; 
     justify-content: space-around;
-    margin-right: 40px;
+    margin-right: 3 n0px;
     padding: 70px;
     margin-top: 8% ;   
 }
@@ -113,7 +123,7 @@ span{
     /* background-color: #6399a3;  */
     font-size: 40px;
     margin-right: 30%;
-    /* padding: 40px; */
+   
 
 }
 .Radiology{
@@ -163,6 +173,7 @@ span{
 .Services1{
     display: flex;
     width: 90%;
+    background-color: #E9FAFC;
 }
 .Surgical{
     padding: 1%;
@@ -192,10 +203,13 @@ span{
     margin-top: 5%;
  
 }
+.Pet img{
+    border: #555;
+}
 .Branches{
     display: flex;
     margin-left: 10%;
-  
+  margin-top: -35%;
    
 }
 .Branches button{
@@ -203,7 +217,7 @@ span{
     padding: 3%;
     width: 100px;
     border: 2px;
-    background-color: rgb(96, 181, 185);
+    background-color:#1BA0AB;
 }
 .v1{
     color: rgb(136, 136, 189);  
@@ -252,7 +266,7 @@ span{
     margin: 0 0 0 1%
 }
 .venterians{
-    display: flex;
+     display: flex; 
 }
 .venterians h1{
   margin-left: 10%;  
@@ -263,22 +277,21 @@ span{
     margin-left: 80%;
 
 }
-.pics{
-    /* background-color: #1c51c4; */
-    width: 100%;
-    height: 50vh;
-    margin-right: 20px;
-    margin-left: 30px;
+ .pics{
+    display: flex;
 }
-.box-img {
-    background-color: #c7d9e2;
-    width: 30%;
-    height: 300px;
+.pic1{
+    padding: 30px;
+    margin-left: 5%;
 }
-/* .pic{
-    display: flex; 
-    padding: 20px;
-} */
+.pic2{
+    padding: 30px;
+    margin-left: 5%;
+}
+.pic3{
+    padding: 30px;
+    margin-left: 5%;
+}
 .Subscribe{
     text-align: center;
     font-weight: bolder;
@@ -290,8 +303,8 @@ span{
     border-radius: 10px;
     border:none;
     font-size: larger;
-  
-} 
+}
+
 .Subscribe button {
     /* padding: 2%;
     width: 18%;
@@ -301,12 +314,12 @@ span{
     margin-left: -12%;
     width: 100px;
     border: 2px;
-    background-color: rgb(96, 181, 185);
+    background-color: #1BA0AB;
 }
 
 
 .container{
-    background-color:#cfebfa;
+    background-color:#E9FAFC;
     width: 80%;
     height: 60%;
     padding: 10%;
@@ -317,6 +330,9 @@ span{
     background-color: #e2f1ee ; 
     height: 40%;
   
+}
+.f1 p{
+    color: rgb(136, 136, 189);
 }
 .Ypet{
     margin-left: 5%;
